@@ -2,9 +2,9 @@
 header{
     font-family: Arial, sans-serif;
     font-weight: bold;
+    font-size: 25px;
     background-color:rgb(255, 255, 255);
     height: 50px;
-    font-size: 25px;
     margin: 20px 0px;
 }
 
@@ -17,7 +17,7 @@ header div h1{
 
 /* inizio main */
 main{
-    background-color: rgb(243, 240, 240);
+    background-color: #F6F8F9;
     height: 1000px;
     padding-top: 50px;
 }
@@ -47,7 +47,7 @@ main{
 }
 
 .content2{
-    padding: 40px 40px;
+    padding: 30px 40px;
 }
 
 button{
@@ -58,7 +58,6 @@ button{
 .button1{
     width: 80px;
     border: none;
-    background-color: rgb(29, 172, 216);
     color:white;
 }
 
@@ -73,3 +72,61 @@ button{
 /* fine prima section */
 
 /* inizio seconda section */
+.descriptions{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.task{
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.topics{
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    color: white;
+    border-radius: 15px;
+    padding: 7px 12px;
+}
+
+.true{
+    width: 13px;
+    height: 13px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: green;
+    border-style: solid;
+    display: inline-block;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: green;
+}
+
+.descriptions:before{
+    content: '\1F893';
+}
+
+
+/* colori */
+.blue{ 
+    background-color: rgb(29, 172, 216);
+}
+
+.violet{
+    background-color: rgb(133, 31, 180);
+}
+
+.green{
+    background-color: rgb(16, 184, 105);
+}
+
+.orange{
+    background-color: orangered;
+}
