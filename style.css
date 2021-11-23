@@ -40,6 +40,7 @@ main{
     height: 500px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    padding-bottom: 50px;
 }
 
 .content1{
@@ -77,6 +78,7 @@ button{
     font-weight: bold;
     font-size: 25px;
     padding: 0px;
+    padding-bottom: 10px;
     margin: 0px;
 }
 
@@ -109,10 +111,32 @@ button{
     color: green;
 }
 
+.false{
+    width: 13px;
+    height: 13px;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: red;
+    border-style: solid;
+    display: inline-block;
+    padding-bottom: 6px;
+    padding-left: 3px;
+    padding-right: 3px;
+    color: red;
+}
+
 .descriptions:before{
     content: '\1F893';
 }
 
+.space1{
+    padding-bottom: 30px;
+}
+
+.space2{
+    padding-bottom: 10px;
+}
+/* fine seconda section */
 
 /* colori */
 .blue{ 
@@ -130,3 +154,12 @@ button{
 .orange{
     background-color: orangered;
 }
+
+.pink{
+    background-color: orchid;
+}
+
+.yellowgreen{
+    background-color: rgb(172, 189, 17);
+}
+/* fine colori */
