@@ -42,8 +42,8 @@ header div h1{
 /* inizio main */
 main{
     background-color: #F6F8F9;
-    height: 1000px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .white-box{
